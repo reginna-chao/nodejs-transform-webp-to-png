@@ -1,1 +1,1 @@
-放入原始WEBP檔案
+Put in the original WEBP file.
