@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-transform-webp-to-png",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "keywords": [],
+  "author": "Reginna Chao",
+  "license": "MIT",
+  "devDependencies": {},
+  "engines": {
+    "node": "^18.17.0 || ^20.3.0 || >=21.0.0"
+  },
+  "dependencies": {
+    "sharp": "^0.33.2"
+  }
+}
