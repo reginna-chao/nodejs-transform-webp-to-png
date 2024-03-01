@@ -19,6 +19,8 @@ fs.readdir(srcDir, (err, files) => {
   }
 
   files.forEach(file => {
+    if (!file.match(/\.webp$/)) return;
+
     const srcFilePath = path.join(srcDir, file);
     const distFilePath = path.join(distDir, file.replace(/\.webp$/, '.png')); // Convert to PNG
 
